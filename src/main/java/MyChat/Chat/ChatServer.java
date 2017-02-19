@@ -17,7 +17,7 @@ public class ChatServer {
 
 	public static final int port = 1234;
 	static Date messageDate = new Date();
-
+int i;
 	public static HashMap<String, String> names = new HashMap<String, String>();
 
 	public static HashMap<String, PrintWriter> customWriters = new HashMap<String, PrintWriter>();
@@ -26,6 +26,7 @@ public class ChatServer {
 
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket0 = new ServerSocket(port);
+
 		System.out.println("Server is run");
 		try {
 			while (true) {
