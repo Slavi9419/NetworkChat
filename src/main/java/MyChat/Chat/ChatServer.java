@@ -18,6 +18,7 @@ public class ChatServer {
 	public static final int port = 1234;
 	static Date messageDate = new Date();
 int i;
+int c;
 	public static HashMap<String, String> names = new HashMap<String, String>();
 
 	public static HashMap<String, PrintWriter> customWriters = new HashMap<String, PrintWriter>();
